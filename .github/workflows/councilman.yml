@@ -1,0 +1,278 @@
+name: councilman
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+    positively:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: positively
+          run: |
+            npm install
+            timeout 346m node councilman.js
+  
+    phooey_tooth:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: phooey_tooth
+          run: |
+            npm install
+            timeout 310m node councilman.js
+  
+    charming_typewriter:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: charming_typewriter
+          run: |
+            npm install
+            timeout 326m node councilman.js
+  
+    geez:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: geez
+          run: |
+            npm install
+            timeout 324m node councilman.js
+  
+    scholarship_across:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: scholarship_across
+          run: |
+            npm install
+            timeout 331m node councilman.js
+  
+    inhibit_midst_speedy:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: inhibit_midst_speedy
+          run: |
+            npm install
+            timeout 300m node councilman.js
+  
+    father_ugh:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: father_ugh
+          run: |
+            npm install
+            timeout 331m node councilman.js
+  
+    drat:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: drat
+          run: |
+            npm install
+            timeout 345m node councilman.js
+  
+    mockingly_roughly:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: mockingly_roughly
+          run: |
+            npm install
+            timeout 326m node councilman.js
+  
+    into:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: into
+          run: |
+            npm install
+            timeout 336m node councilman.js
+  
+    briskly:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: briskly
+          run: |
+            npm install
+            timeout 338m node councilman.js
+  
+    actually_veto:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: actually_veto
+          run: |
+            npm install
+            timeout 343m node councilman.js
+  
+    plus:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: plus
+          run: |
+            npm install
+            timeout 338m node councilman.js
+  
+    lobotomise_surge:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: lobotomise_surge
+          run: |
+            npm install
+            timeout 323m node councilman.js
+  
+    out:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: out
+          run: |
+            npm install
+            timeout 323m node councilman.js
+  
+    whereas_excepting_separate:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: whereas_excepting_separate
+          run: |
+            npm install
+            timeout 347m node councilman.js
+  
+    slime_unsung_cloudy:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: slime_unsung_cloudy
+          run: |
+            npm install
+            timeout 335m node councilman.js
+  
